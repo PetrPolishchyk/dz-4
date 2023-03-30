@@ -15,7 +15,7 @@ public class Execution {
 
     public String getResult(int number){
         System.out.println("The sum is: ");
-        String sum = "---" + number + "---";
+        String sum = String.format("---<%d>---", number);
         return sum;
     }
 
